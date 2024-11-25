@@ -1,0 +1,63 @@
+.main-img {
+    width: 40px;
+    height: 40px;
+}
+
+.foot-link:hover {
+    opacity: 0.7;
+}
+
+.scroll-doc {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 1200px;
+    -webkit-overflow-scrolling: touch;
+    border: 4px solid #004b49;
+}
+
+.bgc {
+    color: #004b49;
+    margin-left: 150px !important;
+}
+
+.welcome {
+    margin-left: 150px;
+}
+
+.crd {
+    height: 400px;
+}
+
+.sz {
+    flex: none;
+    scroll-snap-align: start;
+    width: 600px;
+    text-align: center;
+}
+
+.writing {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    overflow: auto;
+    border: 10px solid #004b49;
+}
+
+.log {
+    width: 282px;
+}
+
+.writing-reg{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 15%;
+    overflow: auto;
+    border: 10px solid #004b49;
+}
+
+.main-png {
+    height: 400px;
+    width: 400px;
+}
