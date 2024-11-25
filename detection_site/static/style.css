@@ -38,7 +38,7 @@
 
 .writing {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 35%;
     overflow: auto;
     border: 10px solid #004b49;
@@ -60,4 +60,30 @@
 .main-png {
     height: 400px;
     width: 400px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 240px; /* Высота футера */
+
+}
+
+.footer-log {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 240px; /* Высота футера */
+
+}
+
+.register {
+    height: 700px;
+}
+
+.tbl {
+    min-height: 1000px;
 }
